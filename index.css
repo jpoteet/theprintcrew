@@ -51,11 +51,16 @@
     .rounded-tl{border-top-left-radius:0.0rem}
     .rounded-tr{border-top-right-radius:0.0rem}
     .border-b-0{border-bottom-width:0.0rem}
+    .border-b-2{border-bottom-width:0.125rem}
     .border-l-0{border-left-width:0.0rem}
+    .border-l-2{border-left-width:0.125rem}
     .border-r-0{border-right-width:0.0rem}
+    .border-r-2{border-right-width:0.125rem}
     .border-t-0{border-top-width:0.0rem}
+    .border-t-2{border-top-width:0.125rem}
     .border-solid{border-style:solid}
-    .border-brand-600\/\[100\%\]{border-color:rgb(35 115 237 / 100%)}
+    .border-gold-500\/\[100\%\]{border-color:rgb(220 200 157 / 100%)}
+    .border-gold-600\/\[100\%\]{border-color:rgb(180 163 129 / 100%)}
     .border-surface-500\/\[100\%\]{border-color:rgb(92 123 155 / 100%)}
     .bg-gold-500{--tw-bg-opacity:1;background-color:rgb(220 200 157 / var(--tw-bg-opacity))}
     .bg-surface-50{--tw-bg-opacity:1;background-color:rgb(245 247 250 / var(--tw-bg-opacity))}
@@ -113,6 +118,7 @@
     .text-shadow-none{text-shadow:}
     .hover\:bg-gold-600:hover{--tw-bg-opacity:1;background-color:rgb(180 163 129 / var(--tw-bg-opacity))}
     .hover\:bg-opacity-\[100\%\]:hover{--tw-bg-opacity:100%}
+    .hover\:text-gold-500:hover{--tw-text-opacity:1;color:rgb(220 200 157 / var(--tw-text-opacity))}
     .hover\:text-surface-950:hover{--tw-text-opacity:1;color:rgb(31 38 50 / var(--tw-text-opacity))}
     .hover\:text-opacity-\[100\%\]:hover{--tw-text-opacity:100%}
     .hover\:text-shadow-none:hover{text-shadow:}

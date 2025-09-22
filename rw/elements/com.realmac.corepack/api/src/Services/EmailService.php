@@ -68,15 +68,6 @@ class EmailService
                 throw new \InvalidArgumentException('No recipient email address provided');
             }
 
-            // Debug: Log email send attempt
-            $logger->debug('EmailService: Starting sendFormSubmission', [
-                'to' => $to,
-                'subject' => $subject,
-                'options' => $options,
-                'formData' => $formData,
-                'config' => $config
-            ]);
-
             // Dispatch email sending event
             $this->events->dispatch('email.sending', [
                 'to' => $to,
